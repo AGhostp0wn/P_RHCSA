@@ -24,7 +24,7 @@ A continuación, resumo los atajos que considero importantes en la terminal:
 
 ## **Trucos Extra** 
 
-> ** Consejo Práctico:**  
+> **Consejo Práctico:**  
 > * **`Ctrl + z`**: Envía un proceso activo a segundo plano (`background`). Muy útil si estás editando un archivo o ejecutando una tarea y necesitas hacer otra consulta rápida sin cerrar lo anterior.
 > * **`!!` (Doble exclamación)**: Repite de inmediato el comando anterior. Lo uso muchísimo cuando olvido poner `sudo` al inicio: solo escribo `sudo !!` y me ahorra volver a teclear todo el comando.
 
