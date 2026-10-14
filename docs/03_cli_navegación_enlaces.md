@@ -1,4 +1,4 @@
-# 🛠️ Módulo: Navegación Avanzada, Enlaces y Procesamiento en la Consola RHEL
+# Módulo: Navegación Avanzada, Enlaces y Procesamiento en la Consola RHEL
 
 > **Consolas Virtuales:**  
 Saber movernos entre consolas virtuales (`chvt`), entender los inodos, gestionar enlaces eficientemente para ahorrar almacenamiento y extraer datos estructurados con herramientas de texto (`awk`, `cut`, `sort`) es lo que diferencia a un administrador eficiente.
@@ -22,7 +22,7 @@ Para buscar o listar archivos específicos utilizando patrones de caracteres:
 
 ---
 
-## 🔗 3. Inodos y Enlaces (Duros vs. Simbólicos)
+## 3. Inodos y Enlaces (Duros vs. Simbólicos)
 Para optimizar recursos y gestionar accesos a archivos:
 * **`ls -li`**: Muestra el listado detallado incluyendo el número de **inodo** (el puntero único en disco que identifica al archivo).
 * **Enlaces Duros (`ln /ruta_original /ruta_nueva`)**: Apuntan exactamente al mismo inodo en disco. Si modificas uno, el otro cambia al instante; e incluso si eliminas el archivo original, la copia sigue funcionando porque comparten la misma estructura física.
